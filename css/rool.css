@@ -1,0 +1,14 @@
+@charset "gb2312";
+/* CSS Document */
+.rollBox{width:100%;/*overflow:hidden;*/ margin:0 auto; position:relative;}
+.rollBox .LeftBotton{height:100%;width:46px;background:url(../images/prev.png) no-repeat center;overflow:hidden; top:0; left:-50px;display:inline;cursor:pointer; position:absolute;}
+.rollBox .RightBotton{height:100%;width:46px;background:url(../images/next.png) no-repeat center;overflow:hidden; top:0; right:-50px;display:inline;cursor:pointer; position: absolute;}
+
+.rollBox .Cont{overflow:hidden;}
+.rollBox .ScrCont{width:10000000px;}
+
+.rollBox #List1,.rollBox #List2{float:left;}
+.rool_pic { overflow:hidden; text-align:center; padding-right:40px;}
+.rool_pic a { display:block; width:222px; height:422px;}
+.rool_pic img { width:100%;}
+.rool_pic a span { display:block; text-align:center; line-height:30px;}
